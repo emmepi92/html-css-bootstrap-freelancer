@@ -27,3 +27,11 @@
 .h-row {
     height: calc(100% - 90px);
 }
+
+footer {
+    background-color: rgb(58, 84, 109);
+}
+
+.copyright {
+    background-color: rgb(44, 62, 80);
+}
