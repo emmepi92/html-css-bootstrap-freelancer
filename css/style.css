@@ -1,0 +1,29 @@
+.top-nav {
+    height: 90px;
+    background-color: rgb(44, 62, 80);
+}
+
+.h-fluid {
+    height: 100vh;
+    background-color: rgb(26, 188, 156);
+}
+
+.color-fluid {
+    background-color: rgb(26, 188, 156);
+}
+
+.fl {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.smile {
+    background-color: rgb(44, 62, 80);
+    border-radius: 50%;
+    height: 200px;
+    width: 200px;
+}
+
+.h-row {
+    height: calc(100% - 90px);
+}
