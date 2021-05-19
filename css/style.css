@@ -53,20 +53,19 @@ li {
 
 .no-box {
     border: none;
-
+    border-radius: unset;
+    border-bottom: 1px solid #aaa;
 }
 
 .no-box:focus {
-    border: none;
     box-shadow: none;
+    border-bottom: 1px solid #aaa;
+
 }
+
 .no-box:focus + label {
     color: rgb(26, 188, 156);
 
-}
-
-.form-floating.col-12 {
-    border-bottom: 1px solid black;
 }
 
 
