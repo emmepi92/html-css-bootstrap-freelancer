@@ -139,6 +139,16 @@ span.green-link a {
 
 
 /* custom on button and form-input  */
+.but-nav a {
+    border: none;
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+button.but-nav:hover a{
+    color: #1abc9c;
+}
+
 .no-box {
     border: none;
     border-radius: unset;
@@ -154,6 +164,10 @@ span.green-link a {
     color: rgb(26, 188, 156);
 }
 
+label {
+    color: #777;
+}
+
 .but-color{
     background-color: rgb(26, 188, 156);
     color: white;
@@ -164,3 +178,5 @@ span.green-link a {
     background-color: rgb(15, 153, 125);
     color: white;
 }
+
+
