@@ -3,10 +3,21 @@
     background-color: #1abc9c;
     color: white;
 }
+h1 {
+    padding-top: 24px;
+}
+.fl {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+section {
+    padding: 50px 0;
+}
 /* NAV  */
 nav {
     width: 100%;
-
 }
 .custom-navbar {
     background-color: #345;
@@ -47,13 +58,13 @@ header h1 {
     justify-content: center;
     align-items: center;
 }
-header i.fa-star {
+i.fa-star {
     font-size: 30px;
     vertical-align: middle;
 
 }
-header .bar::after,
-header .bar::before {
+.bar::after,
+.bar::before {
     content: "";
     display: inline-block;
     width: 150px;
@@ -65,33 +76,35 @@ header .bar::before {
     border-radius: 10px;
 }
 
-header h4 {
-    margin-top: 24px;
+/* MAIN  */
+.container-img img {
+    width: 100%;
+    border-radius: 20px;
+}
+.container-img {
+    margin-bottom: 24px;
+}
+
+section.container .bar::after,
+section.container .bar::before {
+    background-color: black;
+}
+
+.bar {
+    margin-bottom: 24px;
 }
 
 
-
-
-.fl {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-.smile {
-    background-color: lightsteelblue;
-    border-radius: 50%;
-    height: 200px;
-    width: 200px;
-}
-
+/* FOOTER  */
 footer {
     background-color: #345;
     color: white;
+    width: 100%;
+    text-align: center;
 }
+.footer-item {
+    padding-top: 50px;
 
-.copyright {
-    background-color: #1a252f;
 }
 
 ul.social-net {
@@ -111,6 +124,20 @@ ul.social-net {
     margin-right: 5px;
 }
 
+span.green-link a {
+    text-decoration: none;
+    color:#1abc9c;
+}
+
+.copyright {
+    background-color: #1a252f;
+    padding-top: 24px;
+    padding-bottom: 24px;
+    margin-top: 50px;
+}
+
+
+/* custom on button and form-input  */
 .no-box {
     border: none;
     border-radius: unset;
@@ -129,11 +156,10 @@ ul.social-net {
 .but-color{
     background-color: rgb(26, 188, 156);
     color: white;
+    margin-top: 24px;
 }
 
 .but-color:hover {
     background-color: rgb(15, 153, 125);
     color: white;
 }
-
-
