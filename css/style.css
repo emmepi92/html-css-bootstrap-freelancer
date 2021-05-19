@@ -67,7 +67,7 @@ i.fa-star {
 .bar::before {
     content: "";
     display: inline-block;
-    width: 150px;
+    width: 100px;
     height: 4px;
     background-color: white;
     vertical-align: middle;
@@ -134,6 +134,7 @@ span.green-link a {
     padding-top: 24px;
     padding-bottom: 24px;
     margin-top: 50px;
+    font-size: 14px;
 }
 
 
