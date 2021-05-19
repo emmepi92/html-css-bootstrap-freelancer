@@ -1,14 +1,15 @@
+body {
+    text-align: center;
+}
+
 .top-nav {
     height: 90px;
     background-color: rgb(44, 62, 80);
 }
 
-.h-fluid {
-    height: 100vh;
-}
-
 .color-fluid {
     background-color: rgb(26, 188, 156);
+    color: white;
 }
 
 .fl {
@@ -16,6 +17,7 @@
     justify-content: center;
     align-items: center;
 }
+
 .smile {
     background-color: lightsteelblue;
     border-radius: 50%;
@@ -23,14 +25,48 @@
     width: 200px;
 }
 
-.h-row {
-    height: calc(100% - 90px);
-}
-
 footer {
     background-color: rgb(58, 84, 109);
+    color: white;
 }
 
 .copyright {
     background-color: rgb(44, 62, 80);
 }
+
+ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: flex-start;
+}
+
+li {
+    border: 1px solid white;
+    border-radius: 50%;
+    display: flex;
+    width: 40px;
+    height: 40px;  
+    align-items: center;
+    justify-content: center;
+    margin-right: 5px;
+}
+
+.no-box {
+    border: none;
+
+}
+
+.no-box:focus {
+    border: none;
+    box-shadow: none;
+}
+.no-box:focus + label {
+    color: rgb(26, 188, 156);
+
+}
+
+.form-floating.col-12 {
+    border-bottom: 1px solid black;
+}
+
+
