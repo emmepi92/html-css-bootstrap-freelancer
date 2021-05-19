@@ -10,79 +10,90 @@
     <title>Freelancer Fake</title>
 </head>
 <body>
-    <header class="container-fluid color-fluid pb-4">
-        <div class="row pb-4">
-            <nav class="top-nav"></nav>
+
+    <nav class="navbar navbar-expand-md navbar-dark fixed-top custom-navbar">
+        <div class="container">
+            <a class="navbar-brand" href="#">START BOOTSTRAP</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse no-grow" id="navbarCollapse">
+                <ul class="navbar-nav me-auto mb-2 mb-md-0">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#">PORTFOLIO</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" href="#">ABOUT</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" href="#">CONTACT</a>
+                    </li>
+                    
+                    
+                </ul>
+            </div>
         </div>
-        <div class="row">
-            <div class="col-12 fl">
-                <div class="smile"></div>
+    </nav>
+
+    <header class="color-fluid">
+        <div class="container-col-flex">
+            <img src="./img/avatar.svg" alt="">
+            <h1>START BOOTSTRAP</h1>
+            <div>
+                <div class="bar">
+                    <i class="fas fa-star"></i>
+                </div>
             </div>
-            <div class="col-12 fl">
-                <h1>START BOOTSTRAT</h1>
-            </div>
-            <div class="col-12 fl">
-                <h2>GRAPHIC ARTIST-WEB DESIGNER-ILLUSTRATOR </h2>
-            </div>
-            
+            <h4>GRAPHIC ARTIST - WEB DESIGNER - ILLUSTRATOR </h4>                        
         </div>
     </header>
 
-    <section class="container py-4">
+    <section class="container">
         <div class="row">
             <div class="col-12 fl">
                 <h1>PORTFOLIO</h1>
             </div>            
-            <div class="fl col-xs-12 col-md-6 col-lg-4">
+            <div class="fl col-12 col-md-6 col-lg-4">
                 <div class="smile"></div>
             </div>
-            <div class="fl col-xs-12 col-md-6 col-lg-4">
+            <div class="fl col-12 col-md-6 col-lg-4">
                 <div class="smile"></div>
             </div>
-            <div class="fl col-xs-12 col-md-6 col-lg-4">
+            <div class="fl col-12 col-md-6 col-lg-4">
                 <div class="smile"></div>
             </div>
-            <div class="fl col-xs-12 col-md-6 col-lg-4">
+            <div class="fl col-12 col-md-6 col-lg-4">
                 <div class="smile"></div>
             </div>
-            <div class="fl col-xs-12 col-md-6 col-lg-4">
+            <div class="fl col-12 col-md-6 col-lg-4">
                 <div class="smile"></div>
             </div>
-            <div class="fl col-xs-12 col-md-6 col-lg-4">
+            <div class="fl col-12 col-md-6 col-lg-4">
                 <div class="smile"></div>
             </div>
         </div>
     </section>
 
-    <section class="color-fluid py-4">
-
+    <section class="color-fluid">
         <div class="container">
-
             <div class="row">
+                <div class="col-10 offset-1 col-md-8 offset-md-2 col-lg-10 offset-lg-1">
+                    <div class="row ">
+                        <h1 class="col-12 fl justify-content-center">ABOUT</h1>
+                        <div class="col-12 col-md-6 col-lg-6">
+                            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Recusandae vero non et rem, temporibus deserunt exercitationem magnam sit ut nobis itaque veniam, illo odio velit laboriosam ipsa ab dolores qui?</p> 
+                        </div>
+                        <div class="col-12 col-md-6 col-lg-6">
+                            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Recusandae vero non et rem, temporibus deserunt exercitationem magnam sit ut nobis itaque veniam, illo odio velit laboriosam ipsa ab dolores qui?</p> 
+                        </div>
 
-                <div class="col-12 fl">
-                    <h1>ABOUT</h1>
-                </div>
-
-                <div class="col-xs-12 col-md-6 fl">
-                    <div>
-                        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Pariatur eaque illo vitae, similique consequuntur velit quam quas ex officia quaerat, exercitationem asperiores aliquam dicta, iure ullam delectus dolorum? Doloremque, velit!
                     </div>
                 </div>
-
-                <div class="col-xs-12 col-md-6 fl">
-                    <div>
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae veniam cumque quis facilis dolore? Tempore culpa repellendus qui adipisci voluptatum reiciendis, tenetur natus ad ipsam unde minima quam odio quis?
-                    </div>                
-                </div>
-                <div class="col-12 fl">
-                    <button type="button" class="btn btn-outline-light"> <i class="fas fa-download"></i> Download</button>
-                </div>  
-            </div>
+            </div>               
         </div>
     </section>
 
-    <section class="container py-4">
+    <section class="container">
         <div class="row">
             <div class="col-12 fl">
                 <h1>CONTACT ME</h1>
@@ -104,23 +115,26 @@
                 <textarea class="form-control no-box" placeholder="Leave a message here" id="floatingMessage" style="height: 100px"></textarea>
                 <label for="floatingMessage">Message</label>
             </div>
+            <div class="col-12 fl justify-content-start">
+                <button type="button" class="btn  but-color">Send</button>
+            </div>
         
         </div>
     </section>
 
-    <footer class="container-fluid pt-4"> 
+    <footer class="container-fluid"> 
         <div class="container">
-            <div class="row align-items-start pb-4">                
-                <div class="fl col-xs12 col-md-4 col-lg-4">
+            <div class="row align-items-start">                
+                <div class="fl col12 col-md-4 col-lg-4">
                     <div>
                         <h3>LOCATION</h3>
                         <span>2215 John Daniel Drive Clark, MO 54243</span>
                     </div>
                 </div>
-                <div class="fl col-xs12 col-md-4 col-lg-4">
+                <div class="fl col12 col-md-4 col-lg-4">
                     <div>
                         <h3>AROUND THE WEB</h3>
-                        <ul>
+                        <ul class="social-net">
                             <li><i class="fab fa-facebook-f"></i></li>
                             <li><i class="fab fa-google-plus-g"></i></li>
                             <li><i class="fab fa-twitter"></i></li>
@@ -128,7 +142,7 @@
                         </ul>
                     </div>
                 </div>
-                <div class="fl col-xs12 col-md-4 col-lg-4">
+                <div class="fl col12 col-md-4 col-lg-4">
                     <div>
                         <h3>ABOUT FREELANCER</h3>
                         <span>Freelancer is a free to use, open source Bootstrap theme created by Start Bootstrap</span>
@@ -138,7 +152,7 @@
 
         </div>
         <div class="row">
-            <div class="col copyright fl py-4">
+            <div class="col copyright fl">
                 <div>Copyright Your Website 2019</div>
             </div>
         </div>        

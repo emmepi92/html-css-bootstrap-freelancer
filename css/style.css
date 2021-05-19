@@ -1,16 +1,76 @@
-body {
-    text-align: center;
-}
-
-.top-nav {
-    height: 90px;
-    background-color: rgb(44, 62, 80);
-}
-
+/* utility classes  */
 .color-fluid {
-    background-color: rgb(26, 188, 156);
+    background-color: #1abc9c;
     color: white;
 }
+/* NAV  */
+nav {
+    width: 100%;
+
+}
+.custom-navbar {
+    background-color: #345;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.no-grow {
+    flex-grow: 0;
+}
+.navbar-dark .navbar-toggler {
+    border-color: white;
+}
+a.navbar-brand {
+    font-size: 35px;
+    font-weight: bold;
+}
+nav .navbar-nav .nav-item a {
+    font-size: 20px;
+
+}
+
+/* HEADER  */
+header {
+    padding-top: 150px;
+    padding-bottom: 50px;
+}
+header img {
+    width: 250px;
+}
+header h1 {
+    font-size: 50px;
+    font-weight: bold;
+}
+
+.container-col-flex {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+header i.fa-star {
+    font-size: 30px;
+    vertical-align: middle;
+
+}
+header .bar::after,
+header .bar::before {
+    content: "";
+    display: inline-block;
+    width: 150px;
+    height: 4px;
+    background-color: white;
+    vertical-align: middle;
+    margin-left: 20px;
+    margin-right: 20px;
+    border-radius: 10px;
+}
+
+header h4 {
+    margin-top: 24px;
+}
+
+
+
 
 .fl {
     display: flex;
@@ -26,21 +86,21 @@ body {
 }
 
 footer {
-    background-color: rgb(58, 84, 109);
+    background-color: #345;
     color: white;
 }
 
 .copyright {
-    background-color: rgb(44, 62, 80);
+    background-color: #1a252f;
 }
 
-ul {
+ul.social-net {
     list-style-type: none;
     display: flex;
     justify-content: flex-start;
 }
 
-li {
+.social-net li {
     border: 1px solid white;
     border-radius: 50%;
     display: flex;
@@ -60,12 +120,20 @@ li {
 .no-box:focus {
     box-shadow: none;
     border-bottom: 1px solid #aaa;
-
 }
 
 .no-box:focus + label {
     color: rgb(26, 188, 156);
+}
 
+.but-color{
+    background-color: rgb(26, 188, 156);
+    color: white;
+}
+
+.but-color:hover {
+    background-color: rgb(15, 153, 125);
+    color: white;
 }
 
 
