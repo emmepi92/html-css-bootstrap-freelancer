@@ -12,8 +12,8 @@ h1 {
     align-items: center;
 }
 
-section {
-    padding: 50px 0;
+section {    
+    padding: 100px 0;
     color:#2c3e50;
 }
 /* NAV  */
@@ -148,6 +148,9 @@ span.green-link a {
 }
 button.but-nav:hover a{
     color: #1abc9c;
+}
+button.but-nav:focus {
+    box-shadow: none;
 }
 
 .no-box {
