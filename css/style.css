@@ -114,11 +114,16 @@ ul.social-net {
     justify-content: center;
     margin-right: 5px;
 }
-
-ul.social-net li:hover {
-    background-color: white;
+.social-net li a {
+    color: white;
+}
+ul.social-net li:hover a{
     color: #2c3e50;
 }
+ul.social-net li:hover{
+    background-color: white;
+}
+
 
 span.green-link a {
     text-decoration: none;
